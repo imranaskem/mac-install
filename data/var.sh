@@ -34,7 +34,7 @@ mikestead.dotenv
 ms-azuretools.vscode-docker
 ms-vscode.csharp
 ms-vscode.Go
-shd101wyy.markdown-preview-enhanced
 vscode-icons-team.vscode-icons
-ybaumes.highlight-trailing-white-spaces)
+ybaumes.highlight-trailing-white-spaces
+yzhang.markdown-all-in-one)
 
