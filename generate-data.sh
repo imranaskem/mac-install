@@ -3,13 +3,13 @@
 REINSTALL_FILE="./reinstall.sh"
 VAR_FILE="./var.sh"
 
-echo "Getting formulae"
+echo "Getting formulae..."
 BREW=$(brew list)
 
-echo "Getting casks"
+echo "Getting casks..."
 BREW_CASKS=$(brew cask list)
 
-echo "Getting VS Code extensions"
+echo "Getting code extensions..."
 VSC_EXT=$(code --list-extensions)
 
 printf "#!/bin/bash\n\n" > $VAR_FILE

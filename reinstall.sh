@@ -4,20 +4,14 @@ source ./var.sh
 
 brew update
 
-for b in $BREW
-do
-    echo "Installing $b"
-    brew install "$b"
-done
+echo "Installing formulae..."
+brew install "${BREW[@]}"
 
-for c in $BREW_CASKS
-do
-    echo "Installing $c"
-    brew cask install "$c"
-done
+echo "Installing casks..."
+brew cask install "${BREW_CASKS[@]}"
 
-for v in $VSC_EXT
-do
-    echo "Installing code extension $v"
-    code --install-extension "$v"
-done
+echo "Installing code extensions..."
+code --install-extension "${VSC_EXT[@]}"
+
+echo "Installing yarn"
+npm install -g yarn
