@@ -1,46 +1,23 @@
 #!/bin/bash
 
-brews=(
-    go
-    docker-compose
-    node
-    zsh
-    zsh-completions
-)
+source ./var.sh
 
-casks=(
-    docker
-    dotnet-sdk
-    postman
-    font-fira-code
-    iterm2
-    visual-studio-code
-    spotify
-    gitkraken
-    whatsapp
-    steam
-)
+brew update
 
-npm=(
-    yarn
-)
+for b in $BREW
+do
+    echo "Installing $b"
+    brew install "$b"
+done
 
-vscode=(
-    coenraads.bracket-pair-colorizer-2
-    ms-vscode.csharp
-    mikestead.dotenv
-    ybaumes.highlight-trailing-white-spaces
-    ms-vscode.go
-    vscode-icons-team.vscode-icons
-    eamodio.gitlens
-    dbaeumer.vscode-eslint
-    ms-azuretools.vscode-docker
-)
+for c in $BREW_CASKS
+do
+    echo "Installing $c"
+    brew cask install "$c"
+done
 
-brew install <brews>
-
-brew cask install <casks>
-
-vscode --install-extension <ext>
-
-npm install <npm> -g
+for v in $VSC_EXT
+do
+    echo "Installing code extension $v"
+    code --install-extension "$v"
+done
