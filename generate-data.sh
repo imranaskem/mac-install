@@ -1,8 +1,8 @@
 #!/bin/bash
 
 REINSTALL_FILE="./reinstall.sh"
-VAR_FILE="./var.sh"
-ZSH_FILE="./.zshbackup"
+VAR_FILE="./data/var.sh"
+ZSH_FILE="./data/.zshbackup"
 
 echo "Getting formulae..."
 BREW=$(brew list)
@@ -18,4 +18,4 @@ printf "BREW=($BREW)\n\n" >> $VAR_FILE
 printf "BREW_CASKS=($BREW_CASKS)\n\n" >> $VAR_FILE
 printf "VSC_EXT=($VSC_EXT)\n\n" >> $VAR_FILE
 cat ~/.zshrc > $ZSH_FILE
-cp ~/Library/Preferences/com.googlecode.iterm2.plist ./com.googlecode.iterm2.plist
+cp ~/Library/Preferences/com.googlecode.iterm2.plist ./data/com.googlecode.iterm2.plist
