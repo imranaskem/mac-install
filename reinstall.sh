@@ -15,3 +15,9 @@ code --install-extension "${VSC_EXT[@]}"
 
 echo "Installing yarn"
 npm install -g yarn
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+cat ./.zshbackup > ~/.zshrc
+
+cp ./com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
