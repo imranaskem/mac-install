@@ -1,0 +1,25 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "vscode-icons",
+    "gitlens.advanced.messages": {
+        "suppressGitDisabledWarning": true
+    },
+    //"go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSaveTimeout": 3000,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "gopls": {
+        "usePlaceholders": true // add parameter placeholders when completing a function
+    },
+    "files.eol": "\n",
+    "explorer.confirmDelete": false, // formatting only supports LF line endings
+}

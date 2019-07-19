@@ -21,4 +21,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 cat ./data/.zshbackup > ~/.zshrc
 
 cp ./data/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
-cp ./data/settings.json ~/Library/Application Support/Code/User/settings.json
+cp ./data/settings.json ~/Library/Application\ Support/Code/User/settings.json
