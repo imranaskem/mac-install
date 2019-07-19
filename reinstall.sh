@@ -18,6 +18,7 @@ npm install -g yarn
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-cat ./.zshbackup > ~/.zshrc
+cat ./data/.zshbackup > ~/.zshrc
 
-cp ./com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+cp ./data/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+cp ./data/settings.json ~/Library/Application Support/Code/User/settings.json

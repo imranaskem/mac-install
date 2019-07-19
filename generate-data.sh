@@ -22,3 +22,4 @@ VSC_EXT=$(code --list-extensions)
 
 cat ~/.zshrc > $ZSH_FILE
 cp ~/Library/Preferences/com.googlecode.iterm2.plist ./data/com.googlecode.iterm2.plist
+cp ~/Library/Application Support/Code/User/settings.json ./data/settings.json
