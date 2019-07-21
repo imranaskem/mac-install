@@ -12,9 +12,10 @@ Run this to generate the data folder, it will log all of the following:
 - Installed brew formulae
 - Installed brew casks
 - Installed VS Code extensions
+- VS Code Settings
 - iTerm2 settings
 - .zshrc
 
 ### reinstall.sh
 
-After running generate-data.sh, this file will use the data generate to reinstall all the items logged above.
+After running generate-data.sh, this file will use the data generate to reinstall all the items logged above and install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)

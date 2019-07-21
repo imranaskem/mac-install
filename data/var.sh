@@ -7,6 +7,7 @@ icu4c
 libyaml
 ncurses
 node
+nvm
 openssl
 pcre
 python
