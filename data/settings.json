@@ -21,5 +21,7 @@
         "usePlaceholders": true // add parameter placeholders when completing a function
     },
     "files.eol": "\n",
-    "explorer.confirmDelete": false, // formatting only supports LF line endings
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Bluloco Light",
+    "editor.cursorBlinking": "expand", // formatting only supports LF line endings
 }
