@@ -8,6 +8,16 @@
         "suppressGitDisabledWarning": true
     },
     //"go.formatTool": "goimports",
+    "go.delveConfig": {
+        "useApiV1": false,
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 3,
+            "maxStringLen": 1000,
+            "maxArrayValues": 400,
+            "maxStructFields": -1
+        }
+    },
     "go.useLanguageServer": true,
     "[go]": {
         "editor.snippetSuggestions": "none",
@@ -20,6 +30,16 @@
     "gopls": {
         "usePlaceholders": true // add parameter placeholders when completing a function
     },
+    "bracket-pair-colorizer-2.colors": [
+        "Red",
+        "Orange",
+        "Teal"
+    ],
+    "indentRainbow.colors": [
+        "Red",
+        "Orange",
+        "SpringGreen",
+    ],
     "files.eol": "\n",
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "Bluloco Light",

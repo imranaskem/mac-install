@@ -35,6 +35,7 @@ mikestead.dotenv
 ms-azuretools.vscode-docker
 ms-vscode.csharp
 ms-vscode.Go
+oderwat.indent-rainbow
 uloco.theme-bluloco-light
 vscode-icons-team.vscode-icons
 ybaumes.highlight-trailing-white-spaces
