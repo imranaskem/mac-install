@@ -33,12 +33,12 @@
     "bracket-pair-colorizer-2.colors": [
         "Red",
         "Orange",
-        "Teal"
+        "SpringGreen"
     ],
     "indentRainbow.colors": [
-        "Red",
-        "Orange",
-        "SpringGreen",
+        "rgba(255,0,0,0.05)",
+        "rgba(0,0,255,0.05)",
+        "rgba(0,255,0,0.05)",
     ],
     "files.eol": "\n",
     "explorer.confirmDelete": false,
