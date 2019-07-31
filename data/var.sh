@@ -36,8 +36,8 @@ ms-azuretools.vscode-docker
 ms-vscode.csharp
 ms-vscode.Go
 oderwat.indent-rainbow
+shardulm94.trailing-spaces
 uloco.theme-bluloco-light
 vscode-icons-team.vscode-icons
-ybaumes.highlight-trailing-white-spaces
 yzhang.markdown-all-in-one)
 
