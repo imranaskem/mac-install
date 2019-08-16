@@ -37,6 +37,7 @@ ms-vscode.csharp
 ms-vscode.Go
 oderwat.indent-rainbow
 shardulm94.trailing-spaces
+Tyriar.sort-lines
 uloco.theme-bluloco-light
 vscode-icons-team.vscode-icons
 yzhang.markdown-all-in-one)

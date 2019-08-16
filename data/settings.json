@@ -7,7 +7,7 @@
     "gitlens.advanced.messages": {
         "suppressGitDisabledWarning": true
     },
-    //"go.formatTool": "goimports",
+    "go.formatTool": "goimports",
     "go.delveConfig": {
         "useApiV1": false,
         "dlvLoadConfig": {
