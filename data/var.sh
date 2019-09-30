@@ -30,6 +30,7 @@ BREW_CASKS=(azure-data-studio
 discord
 docker
 dotnet-sdk
+font-cascadia
 font-fira-code
 gitkraken
 iterm2

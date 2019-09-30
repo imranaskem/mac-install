@@ -1,6 +1,6 @@
 {
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Cascadia Code",
     "editor.fontSize": 14,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "vscode-icons",
