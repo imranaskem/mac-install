@@ -33,7 +33,7 @@
     "bracket-pair-colorizer-2.colors": [
         "Red",
         "Orange",
-        "SpringGreen"
+        "ForestGreen"
     ],
     "indentRainbow.colors": [
         "rgba(255,0,0,0.05)",
@@ -43,5 +43,7 @@
     "files.eol": "\n",
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "Bluloco Light",
-    "editor.cursorBlinking": "expand", // formatting only supports LF line endings
+    "editor.cursorBlinking": "expand",
+    "explorer.confirmDragAndDrop": false,
+    "vsicons.dontShowNewVersionMessage": true, // formatting only supports LF line endings
 }
