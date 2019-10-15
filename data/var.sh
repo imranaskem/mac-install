@@ -27,6 +27,7 @@ zsh
 zsh-completions)
 
 BREW_CASKS=(azure-data-studio
+dash
 discord
 docker
 dotnet-sdk
@@ -43,6 +44,7 @@ whatsapp)
 VSC_EXT=(bungcip.better-toml
 CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
+deerawan.vscode-dash
 eamodio.gitlens
 mikestead.dotenv
 ms-azuretools.vscode-docker
