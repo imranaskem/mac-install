@@ -31,4 +31,4 @@ commitMessage="New data on $date"
 
 git add .
 git commit -m "$commitMessage"
-git push github-ssh
+git push
