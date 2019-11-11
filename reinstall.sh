@@ -1,6 +1,7 @@
 #!/bin/bash
 
 source ./data/var.sh
+source ./git-setup.sh
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -24,3 +25,5 @@ cat ./data/.zshbackup > ~/.zshrc
 
 cp ./data/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 cp ./data/settings.json ~/Library/Application\ Support/Code/User/settings.json
+
+git_setup
