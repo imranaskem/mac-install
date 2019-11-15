@@ -36,6 +36,7 @@ font-fira-code
 gitkraken
 iterm2
 postman
+qmk-toolbox
 robo-3t
 spotify
 visual-studio-code
