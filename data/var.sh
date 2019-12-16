@@ -27,6 +27,7 @@ zsh
 zsh-completions)
 
 BREW_CASKS=(azure-data-studio
+cyberduck
 dash
 discord
 docker
@@ -35,9 +36,12 @@ font-cascadia
 font-fira-code
 gitkraken
 iterm2
+kindle
+microsoft-remote-desktop-beta
 postman
 qmk-toolbox
 robo-3t
+signal
 spotify
 visual-studio-code
 whatsapp)
@@ -47,6 +51,7 @@ CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
 deerawan.vscode-dash
 eamodio.gitlens
+jchannon.csharpextensions
 mikestead.dotenv
 ms-azuretools.vscode-docker
 ms-vscode.csharp
