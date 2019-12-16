@@ -32,6 +32,7 @@ dash
 discord
 docker
 dotnet-sdk
+eqmac
 font-cascadia
 font-fira-code
 gitkraken
@@ -54,6 +55,7 @@ eamodio.gitlens
 jchannon.csharpextensions
 mikestead.dotenv
 ms-azuretools.vscode-docker
+ms-python.python
 ms-vscode.csharp
 ms-vscode.Go
 oderwat.indent-rainbow

@@ -45,5 +45,6 @@
     "workbench.colorTheme": "Bluloco Light",
     "editor.cursorBlinking": "expand",
     "explorer.confirmDragAndDrop": false,
-    "vsicons.dontShowNewVersionMessage": true, // formatting only supports LF line endings
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.pythonPath": "/usr/local/bin/python3", // formatting only supports LF line endings
 }
