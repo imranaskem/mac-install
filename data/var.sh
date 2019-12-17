@@ -32,15 +32,16 @@ dash
 discord
 docker
 dotnet-sdk
-eqmac
 font-cascadia
 font-fira-code
 gitkraken
 iterm2
 kindle
 microsoft-remote-desktop-beta
+monitorcontrol
 postman
 qmk-toolbox
+razer-synapse
 robo-3t
 signal
 spotify
