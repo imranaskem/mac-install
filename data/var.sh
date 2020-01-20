@@ -61,6 +61,7 @@ ms-python.python
 ms-vscode.csharp
 ms-vscode.Go
 oderwat.indent-rainbow
+richie5um2.vscode-sort-json
 shardulm94.trailing-spaces
 Tyriar.sort-lines
 uloco.theme-bluloco-light

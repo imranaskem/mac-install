@@ -1,50 +1,50 @@
 {
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Cascadia Code",
-    "editor.fontSize": 14,
-    "workbench.sideBar.location": "right",
-    "workbench.iconTheme": "vscode-icons",
-    "gitlens.advanced.messages": {
-        "suppressGitDisabledWarning": true
-    },
-    "go.formatTool": "goimports",
-    "go.delveConfig": {
-        "useApiV1": false,
-        "dlvLoadConfig": {
-            "followPointers": true,
-            "maxVariableRecurse": 3,
-            "maxStringLen": 1000,
-            "maxArrayValues": 400,
-            "maxStructFields": -1
-        }
-    },
-    "go.useLanguageServer": true,
     "[go]": {
-        "editor.snippetSuggestions": "none",
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSaveTimeout": 3000,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
-        }
-    },
-    "gopls": {
-        "usePlaceholders": true // add parameter placeholders when completing a function
+        },
+        "editor.codeActionsOnSaveTimeout": 3000,
+        "editor.formatOnSave": true,
+        "editor.snippetSuggestions": "none"
     },
     "bracket-pair-colorizer-2.colors": [
         "Red",
         "Orange",
         "ForestGreen"
     ],
+    "editor.cursorBlinking": "expand",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.eol": "\n",
+    "gitlens.advanced.messages": {
+        "suppressGitDisabledWarning": true
+    },
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxArrayValues": 400,
+            "maxStringLen": 1000,
+            "maxStructFields": -1,
+            "maxVariableRecurse": 3
+        },
+        "useApiV1": false
+    },
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "gopls": {
+        "usePlaceholders": true
+    },
     "indentRainbow.colors": [
         "rgba(255,0,0,0.05)",
         "rgba(0,0,255,0.05)",
-        "rgba(0,255,0,0.05)",
+        "rgba(0,255,0,0.05)"
     ],
-    "files.eol": "\n",
-    "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Bluloco Light",
-    "editor.cursorBlinking": "expand",
-    "explorer.confirmDragAndDrop": false,
+    "python.pythonPath": "/usr/local/bin/python3",
     "vsicons.dontShowNewVersionMessage": true,
-    "python.pythonPath": "/usr/local/bin/python3", // formatting only supports LF line endings
+    "workbench.colorTheme": "Bluloco Light",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right"
 }
