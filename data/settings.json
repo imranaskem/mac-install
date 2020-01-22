@@ -46,5 +46,6 @@
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorTheme": "Bluloco Light",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontSize": 14
 }
