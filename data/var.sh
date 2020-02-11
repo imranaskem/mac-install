@@ -13,7 +13,6 @@ libtool
 libyaml
 ncurses
 node
-nvm
 openssl
 openssl@1.1
 pcre
@@ -31,6 +30,7 @@ BREW_CASKS=(azure-data-studio
 cyberduck
 dash
 discord
+displaylink
 docker
 dotnet-sdk
 font-cascadia
