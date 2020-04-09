@@ -10,7 +10,8 @@
     "bracket-pair-colorizer-2.colors": [
         "Red",
         "Orange",
-        "ForestGreen"
+        "ForestGreen",
+        "Purple"
     ],
     "editor.cursorBlinking": "expand",
     "editor.fontFamily": "JetBrains Mono",

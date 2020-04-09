@@ -29,6 +29,7 @@ zsh-completions)
 BREW_CASKS=(azure-data-studio
 cyberduck
 dash
+dbeaver-community
 discord
 displaylink
 docker
@@ -42,7 +43,6 @@ microsoft-remote-desktop-beta
 monitorcontrol
 postman
 qmk-toolbox
-razer-synapse
 robo-3t
 signal
 spotify
@@ -55,10 +55,12 @@ dbaeumer.vscode-eslint
 deerawan.vscode-dash
 eamodio.gitlens
 jchannon.csharpextensions
+mechatroner.rainbow-csv
 mikestead.dotenv
 ms-azuretools.vscode-docker
+ms-dotnettools.csharp
+ms-mssql.mssql
 ms-python.python
-ms-vscode.csharp
 ms-vscode.Go
 oderwat.indent-rainbow
 richie5um2.vscode-sort-json
