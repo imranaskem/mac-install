@@ -34,6 +34,7 @@ discord
 displaylink
 docker
 dotnet-sdk
+firefox-developer-edition
 font-cascadia
 font-fira-code
 gitkraken
