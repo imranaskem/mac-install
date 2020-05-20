@@ -2,6 +2,7 @@
 
 BREW=(autoconf
 automake
+azure-cli
 coreutils
 docker-compose
 gdbm
@@ -21,6 +22,7 @@ python
 python@3.8
 readline
 sqlite
+terraform
 xz
 zlib
 zsh
@@ -47,6 +49,8 @@ qmk-toolbox
 robo-3t
 signal
 spotify
+the-unarchiver
+typora
 visual-studio-code
 whatsapp)
 
@@ -56,6 +60,7 @@ dbaeumer.vscode-eslint
 deerawan.vscode-dash
 eamodio.gitlens
 jchannon.csharpextensions
+mauve.terraform
 mechatroner.rainbow-csv
 mikestead.dotenv
 ms-azuretools.vscode-docker

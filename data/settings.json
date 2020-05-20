@@ -48,5 +48,18 @@
     "workbench.colorTheme": "Bluloco Light",
     "workbench.iconTheme": "vscode-icons",
     "workbench.sideBar.location": "right",
-    "terminal.integrated.fontSize": 14
+    "terminal.integrated.fontSize": 14,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    }
 }
