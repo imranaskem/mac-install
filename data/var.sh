@@ -5,6 +5,7 @@ automake
 azure-cli
 coreutils
 docker-compose
+freetds
 gdbm
 go
 icu4c
@@ -12,6 +13,8 @@ libgpg-error
 libksba
 libtool
 libyaml
+msodbcsql17
+mssql-tools
 ncurses
 node
 openssl
@@ -23,6 +26,7 @@ python@3.8
 readline
 sqlite
 terraform
+unixodbc
 xz
 zlib
 zsh
@@ -43,6 +47,7 @@ gitkraken
 iterm2
 kindle
 microsoft-remote-desktop-beta
+microsoft-teams
 monitorcontrol
 postman
 qmk-toolbox
@@ -59,15 +64,18 @@ CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
 deerawan.vscode-dash
 eamodio.gitlens
+golang.go
+hashicorp.terraform
 jchannon.csharpextensions
-mauve.terraform
 mechatroner.rainbow-csv
 mikestead.dotenv
+ms-azure-devops.azure-pipelines
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
 ms-mssql.mssql
 ms-python.python
-ms-vscode.Go
+ms-vscode.azure-account
+octref.vetur
 oderwat.indent-rainbow
 richie5um2.vscode-sort-json
 shardulm94.trailing-spaces
