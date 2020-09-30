@@ -7,6 +7,7 @@ coreutils
 docker-compose
 freetds
 gdbm
+gh
 go
 icu4c
 libgpg-error
@@ -17,7 +18,6 @@ msodbcsql17
 mssql-tools
 ncurses
 node
-openssl
 openssl@1.1
 pcre
 pkg-config
