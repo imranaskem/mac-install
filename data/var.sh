@@ -35,8 +35,6 @@ zsh-completions)
 BREW_CASKS=(azure-data-studio
 cyberduck
 dash
-dbeaver-community
-discord
 displaylink
 docker
 dotnet-sdk
@@ -48,7 +46,6 @@ iterm2
 kindle
 microsoft-remote-desktop-beta
 microsoft-teams
-monitorcontrol
 postman
 qmk-toolbox
 robo-3t
