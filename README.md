@@ -1,12 +1,17 @@
 # Mac Install
 
-A script for generating data on brew formulae/casks and installed VS Code extensions which can be used to reinstall everything on another machine.
+A CLI for generating data on brew formulae/casks and installed VS Code extensions which can be used to reinstall everything on another machine.
 
 ## How to use this repo
 
-There are two main files of interest in this repo: generate-data.sh and reinstall.sh.
+The base CLI command is macmgmt.
 
-### generate-data.sh
+There are three flags that are used to operate this CLI:
+ - -g - Generates the config for later reinstallation
+ - -r - Reinstalls from config in the data folder
+ - -h - Shows help
+
+### macmgmt -g
 
 Run this to generate the data folder, it will log all of the following:
 - Installed brew formulae
@@ -16,6 +21,6 @@ Run this to generate the data folder, it will log all of the following:
 - iTerm2 settings
 - .zshrc
 
-### reinstall.sh
+### macmgmt -r
 
-After running generate-data.sh, this file will use the data generate to reinstall all the items logged above and install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+After generating data, this will use the data folder to reinstall all the items logged above and install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)

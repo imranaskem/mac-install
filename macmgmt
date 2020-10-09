@@ -1,0 +1,37 @@
+#!/bin/bash
+
+source ./cmd/generate-data.sh
+source ./cmd/reinstall.sh
+source ./cmd/help.sh
+
+if (($# == 0)); then
+    echo "A single flag is required" >&2
+    exit 1
+fi
+
+if (($# > 1)); then
+    echo "Combining flags is not supported" >&2
+    exit 1
+fi
+
+while getopts ":grh" opt; do
+    case $opt in
+        g)
+            echo "Generating reinstall data..." >&2
+            generate_data
+        ;;
+        r)
+            echo "Reinstalling settings..." >&2
+            reinstall
+        ;;
+        h)
+            echo "How to use macmgmt" >&2
+            print_help
+        ;;
+        \?)
+            echo "Invalid option: -$OPTARG" >&2
+            exit 1
+        ;;
+    esac
+done
+
