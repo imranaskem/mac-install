@@ -1,5 +1,3 @@
-#!/bin/bash
-
 BREW=(autoconf
 automake
 azure-cli
@@ -21,7 +19,6 @@ node
 openssl@1.1
 pcre
 pkg-config
-python
 python@3.8
 readline
 sqlite
