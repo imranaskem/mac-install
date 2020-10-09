@@ -1,4 +1,3 @@
-#!/bin/bash
 
 git_setup () {
     ssh-keygen -t rsa -b 4096 -N "" -C "imran.askem@gmail.com" -f ~/.ssh/is_rsa -q
@@ -17,5 +16,3 @@ git_setup () {
 
     echo "Git is now setup!"
 }
-
-
