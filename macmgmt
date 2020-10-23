@@ -34,4 +34,3 @@ while getopts ":grh" opt; do
         ;;
     esac
 done
-
