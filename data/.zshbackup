@@ -117,3 +117,5 @@ compinit
 export PATH="$PATH:$HOME/.rvm/bin:/usr/local/Cellar/node/13.7.0/bin:$HOME/.mq/IBM-MQ-Toolkit-Mac-x64-9.1.1.0/bin:$HOME/.mq/IBM-MQ-Toolkit-Mac-x64-9.1.1.0/samp/bin"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
+
+eval "$(pyenv init -)"

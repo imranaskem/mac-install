@@ -3,7 +3,6 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         },
-        "editor.codeActionsOnSaveTimeout": 3000,
         "editor.formatOnSave": true,
         "editor.snippetSuggestions": "none"
     },
@@ -43,7 +42,6 @@
         "rgba(0,0,255,0.05)",
         "rgba(0,255,0,0.05)"
     ],
-    "python.pythonPath": "/usr/local/bin/python3",
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorTheme": "Bluloco Light",
     "workbench.iconTheme": "vscode-icons",
@@ -59,7 +57,23 @@
         ]
     },
     "terraform.languageServer": {
-        "enabled": true,
-        "args": []
+        "external": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.languageServer": "Pylance",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
